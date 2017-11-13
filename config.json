@@ -6,12 +6,12 @@
     {
       "name": "kingdomHearts3",
       "list1": ["kingdom hearts 3", "kingdom hearts III", "kingdom hearts three", "kh3", "khIII"],
-      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
     },
     {
       "name": "theLastOfUs2",
-      "list1": [],
-      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+      "list1": ["last of us", "tlou", "part 2", "part II", "pt2", "ptII", "pt 2", "pt II"],
+      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
     },
     {
       "name": "bokuNoHeroAcademia",
@@ -20,38 +20,38 @@
     },
     {
       "name": "attackOnTitan",
-      "list1": [],
+      "list1": ["attack on titan", "shingeki no kyojin", "aot", "snk"],
       "list2": ["season 3", "new season", "new", "trailer", "announced", "date"]
     },
     {
       "name": "onePunchMan",
-      "list1": [],
+      "list1": ["one punch man", "opm", "punch man"],
       "list2": ["season 2", "new season", "new", "trailer", "announced", "date"]
     },
     {
       "name": "deathStranding",
-      "list1": [],
-      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+      "list1": ["death stranding", "hideo", "kojima"],
+      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
     },
     {
       "name": "macbookPro",
-      "list1": [],
-      "list2": []
+      "list1": ["macbook pro"],
+      "list2": ["new", "update", "upgrade", "discount", "release", "announce"]
     },
     {
       "name": "apple",
-      "list1": [],
-      "list2": []
+      "list1": ["macbook pro", "canadian", "cad", "us", "conversion"],
+      "list2": ["drop", "decrease", "match", "exchange", "rate", "discount"]
     },
     {
       "name": "avatar2",
-      "list1": [],
-      "list2": []
+      "list1": ["avatar 2"],
+      "list2": ["trailer", "release", "release date", "announcement"]
     },
     {
       "name": "cyberpunk2077",
-      "list1": [],
-      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+      "list1": ["cyberpunk", "2077", "cd projekt", "projekt red", "project rekt"],
+      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
     }
   ]
 }
