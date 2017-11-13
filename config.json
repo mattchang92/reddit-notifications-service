@@ -1,0 +1,57 @@
+{
+  "auth_path": "https://www.reddit.com/api/v1/access_token",
+  "grant_type": "client_credentials",
+  "subreddits": ["gaming", "kingdomhearts", "anime", "apple", "movies"],
+  "itemsOfInterest": [
+    {
+      "name": "kingdomHearts3",
+      "list1": ["kingdom hearts 3", "kingdom hearts III", "kingdom hearts three", "kh3", "khIII"],
+      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+    },
+    {
+      "name": "theLastOfUs2",
+      "list1": [],
+      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+    },
+    {
+      "name": "bokuNoHeroAcademia",
+      "list1": ["boku no hero", "my hero academia", "bnha", "mha"],
+      "list2": ["season 3", "new season", "new", "trailer", "announced", "date"]
+    },
+    {
+      "name": "attackOnTitan",
+      "list1": [],
+      "list2": ["season 3", "new season", "new", "trailer", "announced", "date"]
+    },
+    {
+      "name": "onePunchMan",
+      "list1": [],
+      "list2": ["season 2", "new season", "new", "trailer", "announced", "date"]
+    },
+    {
+      "name": "deathStranding",
+      "list1": [],
+      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+    },
+    {
+      "name": "macbookPro",
+      "list1": [],
+      "list2": []
+    },
+    {
+      "name": "apple",
+      "list1": [],
+      "list2": []
+    },
+    {
+      "name": "avatar2",
+      "list1": [],
+      "list2": []
+    },
+    {
+      "name": "cyberpunk2077",
+      "list1": [],
+      "list2": ["new trailer", "trailer", "release", "release date", "announcement", "gameplay"]
+    }
+  ]
+}

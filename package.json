@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3",
-    "restling": "^0.9.1"
+    "node-cron": "^1.2.1",
+    "node-ses": "^2.0.5",
+    "request": "^2.83.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
