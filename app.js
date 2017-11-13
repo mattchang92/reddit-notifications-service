@@ -1,6 +1,6 @@
 const express = require('express');
 const ses = require('node-ses');
-const helpers = require('./helpers');
+// const helpers = require('./helpers');
 const config = require('./config.json');
 const keys = require('./keys.json');
 
@@ -10,12 +10,13 @@ const client = ses.createClient({
 });
 
 const app = express();
+const Parser = require('./helpers/dataParser');
+const dataParser = new Parser;
 
-app.get('*', (req, res, next) => {
+app.get('/', (req, res, next) => {
   const auth = 'Basic ' + new Buffer(config.CLIENT_ID + ':' + config.CLIENT_SECRET).toString('base64');
 
-  helpers.apiGet('https://www.reddit.com/r/gaming/new/.json?count=25');
-  helpers.apiGet('https://www.reddit.com/r/kingdomhearts/new/.json?count=25');
+  console.log(dataParser.getMatchingResults());
 
   // client.sendEmail({
   //   to: 'matthewchang3150@gmail.com',

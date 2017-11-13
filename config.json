@@ -5,53 +5,63 @@
   "itemsOfInterest": [
     {
       "name": "kingdomHearts3",
-      "list1": ["kingdom hearts 3", "kingdom hearts III", "kingdom hearts three", "kh3", "khIII"],
-      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
+      "keywordList1": ["battlefront 2", "kingdom hearts 3", "kingdom hearts III", "kingdom hearts three", "kh3", "khIII"],
+      "keywordList2": ["boycott", "trailer", "release", "release date", "announcement", "gameplay"],
+      "subredditsToCheck": ["gaming", "kingdomhearts"]
     },
     {
       "name": "theLastOfUs2",
-      "list1": ["last of us", "tlou", "part 2", "part II", "pt2", "ptII", "pt 2", "pt II"],
-      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
+      "keywordList1": ["last of us", "tlou", "part 2", "part II", "pt2", "ptII", "pt 2", "pt II"],
+      "keywordList2": ["trailer", "release", "release date", "announcement", "gameplay"],
+      "subredditsToCheck": ["gaming"]
     },
     {
       "name": "bokuNoHeroAcademia",
-      "list1": ["boku no hero", "my hero academia", "bnha", "mha"],
-      "list2": ["season 3", "new season", "new", "trailer", "announced", "date"]
+      "keywordList1": ["boku no hero", "my hero academia", "bnha", "mha"],
+      "keywordList2": ["season 3", "new season", "new", "trailer", "announced", "date"],
+      "subredditsToCheck": ["anime"]
     },
     {
       "name": "attackOnTitan",
-      "list1": ["attack on titan", "shingeki no kyojin", "aot", "snk"],
-      "list2": ["season 3", "new season", "new", "trailer", "announced", "date"]
+      "keywordList1": ["attack on titan", "shingeki no kyojin", "aot", "snk"],
+      "keywordList2": ["season 3", "new season", "new", "trailer", "announced", "date"],
+      "subredditsToCheck": ["anime"]
     },
     {
       "name": "onePunchMan",
-      "list1": ["one punch man", "opm", "punch man"],
-      "list2": ["season 2", "new season", "new", "trailer", "announced", "date"]
+      "keywordList1": ["one punch man", "opm", "punch man"],
+      "keywordList2": ["season 2", "new season", "new", "trailer", "announced", "date"],
+      "subredditsToCheck": ["anime"]
     },
     {
       "name": "deathStranding",
-      "list1": ["death stranding", "hideo", "kojima"],
-      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
+      "keywordList1": ["death stranding", "hideo", "kojima"],
+      "keywordList2": ["trailer", "release", "release date", "announcement", "gameplay"],
+      "subredditsToCheck": ["gaming"]
     },
     {
       "name": "macbookPro",
-      "list1": ["macbook pro"],
-      "list2": ["new", "update", "upgrade", "discount", "release", "announce"]
+      "keywordList1": ["macbook pro"],
+      "keywordList2": ["new", "update", "upgrade", "discount", "release", "announce"],
+      "subredditsToCheck": ["apple"]
     },
     {
       "name": "apple",
-      "list1": ["macbook pro", "canadian", "cad", "us", "conversion"],
-      "list2": ["drop", "decrease", "match", "exchange", "rate", "discount"]
+      "keywordList1": ["macbook pro", "canadian", "cad", "us", "conversion"],
+      "keywordList2": ["drop", "decrease", "match", "exchange", "rate", "discount"],
+      "subredditsToCheck": ["apple"]
     },
     {
       "name": "avatar2",
-      "list1": ["avatar 2"],
-      "list2": ["trailer", "release", "release date", "announcement"]
+      "keywordList1": ["avatar 2"],
+      "keywordList2": ["trailer", "release", "release date", "announcement"],
+      "subredditsToCheck": ["movies"]
     },
     {
       "name": "cyberpunk2077",
-      "list1": ["cyberpunk", "2077", "cd projekt", "projekt red", "project rekt"],
-      "list2": ["trailer", "release", "release date", "announcement", "gameplay"]
+      "keywordList1": ["cyberpunk", "2077", "cd projekt", "projekt red", "project rekt"],
+      "keywordList2": ["trailer", "release", "release date", "announcement", "gameplay"],
+      "subredditsToCheck": ["gaming"]
     }
   ]
 }
