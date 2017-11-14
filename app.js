@@ -9,7 +9,7 @@ const Parser = require('./helpers/dataParser');
 const dataParser = new Parser(config);
 
 
-new CronJob('0 */2 * * * *', () => {
+new CronJob('0 7-23 * * * *', () => {
   const previousPosts = fs.readFileSync('logs/postsHistory.txt')
     .toString()
     .split('\n')
