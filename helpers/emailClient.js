@@ -36,8 +36,8 @@ const logErrors = (error) => {
 
 const sendEmail = (data) => {
   return client.sendEmail({
-    to: 'matthewchang3150@gmail.com',
-    from : 'matthewchang3150@hotmail.com',
+    to: keys.TO_EMAIL,
+    from : keys.FROM_EMAIL,
     subject: 'New Reddit Posts',
     message: buildEmailBody(data),
   }, (err, result, res) => {

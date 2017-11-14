@@ -16,7 +16,6 @@ const apiGet = (endpoint) => (
       }, []);
 
       if (!err) {
-        // console.log(content);
         resolve(content);
       } else {
         reject(err);
@@ -25,21 +24,6 @@ const apiGet = (endpoint) => (
   })
 );
 
-const apiPost = (endpoint, headers, body) => (
-  request({
-    method: "POST",
-    url: endpoint,
-    headers,
-    // headers: JSON.stringify(headers),
-    body: JSON.stringify(body)
-  }, (err, response, body) => {
-    console.log('body', body);
-    return body;
-  })
-);
-
-
 module.exports = {
 	apiGet,
-	apiPost,
 };

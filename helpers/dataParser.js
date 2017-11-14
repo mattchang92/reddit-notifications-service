@@ -1,5 +1,4 @@
 const requestsHelper = require('./requests');
-// const config = require('../config.json');
 
 class DataParser {
   constructor(config) {
